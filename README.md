@@ -28,49 +28,6 @@ The best model (Random Forest) achieves:
 
 ![Sample Output](weather_prediction_results.png)
 
-## 🚀 Quick Start
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/weather-ml-prediction.git
-cd weather-ml-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Run the Project
-
-```bash
-python weather_predictor.py
-```
-
-The script will:
-1. Generate synthetic weather data
-2. Train 5 different ML models
-3. Compare their performance
-4. Create visualization as `weather_prediction_results.png`
-5. Show a demo prediction
-
-## 💻 Making Predictions
-
-```python
-from weather_predictor import WeatherPredictor
-
-predictor = WeatherPredictor()
-# ... after training ...
-
-temperature = predictor.predict_new_weather(
-    humidity=65,       # %
-    wind_speed=15,     # km/h
-    pressure=1013,     # hPa
-    cloud_cover=40     # %
-)
-print(f"Predicted: {temperature:.2f}°C")
-```
-
 ## 🛠️ Technologies
 
 - **Python 3.8+**
