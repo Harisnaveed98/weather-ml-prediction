@@ -100,5 +100,3 @@ weather-ml-prediction/
 - Interactive predictions
 
 
-⭐ **Star this repo if it helped you!** how shall i create this in github the branched or to add all in same branch
-
